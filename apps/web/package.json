@@ -20,6 +20,7 @@
     "@tanstack/react-start": "latest",
     "@tanstack/router-plugin": "latest",
     "@workspace/ui": "workspace:*",
+    "nitro": "3.0.260610-beta",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "tailwindcss": "^4"
