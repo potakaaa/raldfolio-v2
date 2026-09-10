@@ -1,24 +1,27 @@
 {
-  "short_name": "Rald Helbiro Jr.",
-  "name": "Rald Helbiro Jr. — Developer × Creative",
+  "name": "Helbi NFC Offline Schedule Test",
+  "short_name": "NFC Schedule",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "16x16 32x32 48x48",
       "type": "image/x-icon"
     },
     {
-      "src": "icon-192.png",
+      "src": "/icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "/icon-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#0a0a0a",
   "background_color": "#0a0a0a"
