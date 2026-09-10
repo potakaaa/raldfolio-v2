@@ -1,22 +1,24 @@
 import { createFileRoute } from "@tanstack/react-router"
-import { NfcOfflineScheduleTest } from "@/components/nfc-offline-schedule-test"
+import { SiteNavbar } from "@/components/site-navbar"
+import { Hero } from "@/components/hero"
+import { ProjectsSection } from "@/components/projects-section"
+import { ExperienceSection } from "@/components/experience-section"
+import { EducationSection } from "@/components/education-section"
+import { GithubSection } from "@/components/github-section"
+import { ContactSection } from "@/components/contact-section"
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "NFC Offline Schedule Test" },
-      {
-        name: "description",
-        content: "A local-only iPhone NFC and offline PWA schedule test.",
-      },
-      { name: "theme-color", content: "#0a0a0a" },
-      { name: "apple-mobile-web-app-capable", content: "yes" },
-      {
-        name: "apple-mobile-web-app-status-bar-style",
-        content: "black-translucent",
-      },
-      { name: "apple-mobile-web-app-title", content: "NFC Schedule" },
-    ],
-  }),
-  component: NfcOfflineScheduleTest,
-})
+export const Route = createFileRoute("/")({ component: App })
+
+function App() {
+  return (
+    <>
+      <SiteNavbar />
+      <Hero />
+      <ProjectsSection />
+      <ExperienceSection />
+      <EducationSection />
+      <GithubSection />
+      <ContactSection />
+    </>
+  )
+}
