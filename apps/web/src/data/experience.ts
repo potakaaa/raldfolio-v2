@@ -7,6 +7,20 @@ export type ExperienceEntry = {
 
 export const experience: readonly ExperienceEntry[] = [
   {
+    role: "Full Stack AI Specialist",
+    organization: "Tech Quarters",
+    period: "08/2026 — Current",
+    description:
+      "Building AI-enabled full-stack product experiences, mobile applications, and automation workflows.",
+  },
+  {
+    role: "Full Stack Typescript Engineer",
+    organization: "PipBack",
+    period: "08/2026 — Current",
+    description:
+      "Engineering the PipBack platform across customer-facing product surfaces and internal operations.",
+  },
+  {
     role: "Mobile Developer & Social Media Manager",
     organization: "Coach Marc LLC",
     period: "06/2026 — Current",

@@ -74,9 +74,9 @@ export function GithubSection() {
       ) : (
         <>
           <div className="overflow-x-auto pb-2">
-            <div className="flex w-max gap-[3px]">
+            <div className="grid w-full min-w-[48rem] grid-flow-col auto-cols-fr gap-[3px]">
               {weeks.map((week, wi) => (
-                <div key={wi} className="flex flex-col gap-[3px]">
+                <div key={wi} className="flex flex-col items-center gap-[3px]">
                   {week.map((day, di) => (
                     <div key={di} className="flex h-[11px] w-[11px] items-center justify-center">
                       {day && (

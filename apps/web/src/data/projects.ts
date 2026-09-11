@@ -93,4 +93,41 @@ export const projects: readonly Project[] = [
     top: "20%",
     left: "40%",
   },
+  {
+    id: "peptmate-app",
+    title: "Peptmate App",
+    description:
+      "A calm, private iOS companion for tracking peptide routines, reconstitution maths, schedules, logs, and long-term insights.",
+    stack: ["SwiftUI", "Supabase", "RevenueCat", "Swift"],
+    image: "/media/peptmate-app.webp",
+    alt: "Peptmate iOS app home and schedule screens in a landscape mockup",
+    rotate: -4,
+    top: "38%",
+    left: "3%",
+  },
+  {
+    id: "peptmate-website",
+    title: "Peptmate Website",
+    description:
+      "An education-first marketing site that introduces Peptmate's tracking tools, calculators, and library in a calm, approachable way.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    image: "/media/peptmate-website.webp",
+    alt: "Peptmate marketing website homepage",
+    liveUrl: "https://peptmate.com",
+    rotate: 3,
+    top: "44%",
+    left: "32%",
+  },
+  {
+    id: "peptmate-hq",
+    title: "Peptmate HQ",
+    description:
+      "An internal operations console for managing the app across users, analytics, automation, feedback, revenue, and outreach.",
+    stack: ["Next.js", "TypeScript", "Supabase", "Prisma"],
+    image: "/media/peptmate-hq.webp",
+    alt: "Peptmate HQ internal operations dashboard mockup",
+    rotate: -2,
+    top: "38%",
+    left: "62%",
+  },
 ] as const
